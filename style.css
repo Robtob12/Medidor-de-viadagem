@@ -10,18 +10,18 @@ body{
 
 h1,p{
     color: white;
-    width:80vw;
+    width:90vw;
     font-family: sans-serif;
     text-align: center;
 }
 
 p{
-    opacity: 0;
+  opacity: 0;
   transition: opacity 1s ease-in-out;
   visibility: hidden;
 }
 
-#result.visible {
+#result. visible {
   opacity: 1;
   visibility: visible;
 }
