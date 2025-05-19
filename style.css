@@ -10,6 +10,7 @@ body{
 
 h1,p{
     color: white;
+    width:80vw;
 }
 
 #inputBox{
