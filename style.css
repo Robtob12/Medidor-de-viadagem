@@ -21,7 +21,7 @@ p{
   visibility: hidden;
 }
 
-#miParrafo.visible {
+#result.visible {
   opacity: 1;
   visibility: visible;
 }
