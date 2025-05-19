@@ -5,13 +5,25 @@ body{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
 }
 
 h1,p{
     color: white;
     width:80vw;
     font-family: sans-serif;
+    text-align: center;
+}
+
+p{
+    opacity: 0;
+  transition: opacity 1s ease-in-out;
+  visibility: hidden;
+}
+
+#miParrafo.visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 #inputBox{
